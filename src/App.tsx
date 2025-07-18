@@ -175,25 +175,9 @@ const certifications = [
     url: 'https://github.com/Areeb3176/Logo-Generator',
     image: 'l1.JPG'
   },
-    {
-    id: 5, 
-    title: 'Logo Generator', 
-    description: 'The Logo Generator module allows users to create high-quality, brand-ready logos by simply describing their business or brand idea.This feature combines Stable Diffusion XL (SDXL) with a specialized LoRA model and Gemini AI to enhance prompts and produce visually appealing, AI-generated logos. The system also applies post-processing to refine the output for clarity, color balance, and resolution making the logos suitable for digital or print use.Users just describe their concept and pick shape/style no design skills needed.Generates multiple logo variations at once.Ideal for startups, freelancers, and brand creators', 
-    technologies: [
-      'Python',
-      'Flask',
-      'Stable Diffusion XL (SDXL)',
-      'LoRA (.safetensors)',
-      'HuggingFace Diffusers',
-      'Google Gemini API',
-      'Prompt Dictionaries',
-      'Pillow (PIL)',
-      'React (Frontend)',
-    ],
-    url: 'https://github.com/Areeb3176/Logo-Generator',
-    image: 'l1.JPG'
+    
   { 
-    id: 6, 
+    id: 5, 
     title: 'IMDB Movie Review Sentiment Classifier', 
     description: 'This project involves building a sentiment analysis classifier to predict whether movie reviews are positive or negative using the IMDB dataset (50,000 reviews from Kaggle). The text data was preprocessed by removing HTML tags, punctuation, and stopwords, followed by tokenization and normalization using NLTK.Exploratory Data Analysis (EDA) included generating word clouds and analyzing review length, word count, and average word length. Multiple models were trained for classification, including Naive Bayes, Logistic Regression, CNN, RNN, and LSTM. Model performance was evaluated using accuracy, precision, recall, and F1 score, showcasing the effectiveness of both traditional and deep learning approaches.',
         technologies: [
@@ -209,7 +193,7 @@ const certifications = [
     image: 'i.png'
   },
   { 
-    id: 7, 
+    id: 6, 
     title: 'Number Plate Detection', 
     description:'This project focuses on detecting vehicles and recognizing license plate numbers in video footage using deep learning and computer vision techniques. It integrates YOLOv8, a state-of-the-art object detection model, with SORT, a real-time tracking algorithm, to accurately track vehicles and extract number plates across video frames.The system first uses YOLOv8 to detect vehicles, and then applies a custom-trained YOLOv8 model to detect license plates. Each detected license plate is cropped, preprocessed using OpenCV (grayscale conversion and thresholding), and passed through an OCR function to read the text. The SORT tracker ensures consistent vehicle ID assignment across frames. Finally, the detected results, including vehicle positions and license plate numbers, are saved into a CSV file for further analysis or reporting.This solution demonstrates how object detection, tracking, and OCR can be combined effectively for intelligent traffic monitoring and surveillance applications.',
     technologies: [
